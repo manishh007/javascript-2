@@ -100,6 +100,16 @@ const obj5 = {...obj1, ...obj2}    //spread and conbine
 // console.log(Object.entries(instaUser));   //put keys and values in a array inside a array
 
 
+// ****************************destructuring of objects*******************************
+
+const abesit =  {
+    faculty: "okok",
+    infra: "good",
+    environment: "worst"
+}
+
+const{environment : envo} = abesit
+console.log(envo);
 
 
 
