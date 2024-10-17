@@ -34,20 +34,51 @@
 // const res = addition(4, 6)
 // console.log(res);
 
-function welcome(name){
-    if(name === undefined){
-        console.log("naam likh le bhai");
-        return
+// function welcome(name){
+//     if(name === undefined){
+//         console.log("naam likh le bhai");
+//         return
         
 
-    }
-    return `Hi ${name} your most welcome`
+//     }
+//     return `Hi ${name} your most welcome`
+// }
+
+// console.log(welcome("Manish"));
+
+
+// if we don't know how many parameters are to be given in the function
+ 
+// function calcCartPrice (...num){
+//     return num    
+
+// }
+
+// console.log(calcCartPrice(20, 30, 50));
+
+
+
+// const user = { 
+//     username: "manish",
+//     keemat: 2999
+// }
+
+// function cartvalue(obj){
+//     console.log(`username is ${obj.username} and keemar is ${obj.keemat}`);
+    
+
+// }
+// cartvalue(user)
+
+
+//**************for arrays ******************/
+
+const user = [20, 30, 50, "manish"]
+
+function callarray(getarray){
+   /*  return getarray */
+   console.log(getarray[3]);
+   
 }
 
-console.log(welcome("manish"));
-
-
-
- 
-
-
+callarray(user)
